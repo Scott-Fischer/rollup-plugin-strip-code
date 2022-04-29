@@ -3,10 +3,8 @@ before_script: [
     "npm i"
   ]
 node_js:
-  - '6'
-  - '7'
-  - '8'
-  - '9'
+  - '14'
+  - '16'
 notifications:
   email: false
 script: npm test
